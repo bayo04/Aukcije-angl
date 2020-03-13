@@ -1,0 +1,5 @@
+<form #forma="ngForm" (ngSubmit)="submitForm()">
+    <label for="productName">Product name:</label><br>
+    <input type="text" id="productName" name="productName" [(ngModel)]="offer.productName"><br>
+    <input type="submit" value="Submit">
+</form>
