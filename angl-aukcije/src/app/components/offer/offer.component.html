@@ -1,5 +1,21 @@
-<div>
+<div class="container">
     <div *ngFor="let offer of offers">
-        <p>{{offer.productName}}</p>
+        <div class="col-md-4 col-2" style="float: left; background:#F1F7ED; margin: 10px;">
+            <img src="https://tinyjpg.com/images/social/website.jpg" 
+                style="width: 80%; display: block; margin-left: auto; margin-right: auto;" />
+            <h5 align="center">{{offer.productName}}</h5>
+            <p>Ends in {{offer.end}}</p>
+            <div class="d-flex justify-content-between">
+                <p>{{offer.location}}</p>
+                <p>{{offer.price}}</p>
+            </div>
+            <!-- <a href="offer/#" class="btn btn-brand m-btn m-btn--custom m-btn--icon m-btn--pill" style="background-color: #91C7B1;" id="offerDetails">
+                <span>Details</span>
+            </a> -->
+            <button class="btn btn-brand m-btn m-btn--custom m-btn--icon m-btn--pill" mat-raised-button
+                style="background-color: #91C7B1;" (click)="openModal()">
+                Details
+            </button>
+        </div>
     </div>
 </div>
