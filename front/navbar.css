@@ -1,0 +1,77 @@
+.SelectionBar{
+    width: 100%;
+    height: 35px;
+    background-color:#E3D091;
+}
+
+.no-margin{
+    margin:0;
+}
+
+.no-padding{
+    padding:0;
+}
+
+.navbar{
+    background-color: #F1F7ED;
+}
+
+.dropdown-container{
+    width: 20%;
+    min-width: 300px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.btn-category{
+    background-color:transparent; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 35px;
+}
+
+.btn-category:hover {
+    background-color:white;
+    color:black;
+  }
+
+/*search box css start here*/
+.search-nav{
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    top: 8px;
+}
+
+.search-text{
+    display: inline-block;
+    width: 50%;
+    border-radius: 0;
+    margin-right: -4px;
+}
+.search-drop{
+    display: inline-block;
+    border-radius: 0;
+    width: 30%;
+}
+
+/* navigation search button */
+.btn-search {
+    background: #E3D091;
+    border-radius: 0;
+    color: #fff;
+    border-style: solid;
+    margin-left: -4px;
+    padding: 6px;
+    margin-top: -2px;
+  }
+/* navigation search button end*/
+
+/* navigation search box end */
